@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="{ad15e706-6678-496b-b1e9-d449218ec403}">
+			<Node name="unassigned">
+				<Prp name="capture_count" type="I" value="0"/>
+				<Prp name="column" type="I" value="0"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="line" type="I" value="0"/>
+				<Prp name="owner" type="S" value="{00000000-0000-0000-0000-000000000000}"/>
+			</Node>
+		</Node>
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{458E6028-191B-4808-ABDF-0B054DC8AEFA}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Homework 09\Homework 09.mds"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{F6CD5AFB-CD6A-4D69-BF23-D51A5705D11B}"/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Homework 10\Homework 10.mds"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{17A44E53-FA9B-4F51-A77F-0DD05DC71C81}"/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+		</Node>
+		<Node name="files">
+			<Node name="homework 09\homework 09.mds"/>
+			<Node name="homework 10\homework 10.mds"/>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="scc"/>
+		<Node name="settings">
+			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Prp name="key" type="S" value="{3171D714-A3E2-4CAF-8AF2-529F928EDFE8}"/>
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list">
+				<Node name="item0000000000">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="key" type="S" value="{F6CD5AFB-CD6A-4D69-BF23-D51A5705D11B}"/>
+					<Prp name="stoponerror" type="B" value="0"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000001">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="index" type="I" value="1"/>
+					<Prp name="key" type="S" value="{17A44E53-FA9B-4F51-A77F-0DD05DC71C81}"/>
+					<Prp name="stoponerror" type="B" value="0"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{E1B03415-E8DA-4CEF-90F5-6A280C37280E}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{0E03FB5E-6933-4151-818B-1220D74708D0}"/>
+		</Node>
+		<Prp name="key" type="S" value="{007F64F4-0D61-4A46-895D-FDB1D01DAA72}"/>
+		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
